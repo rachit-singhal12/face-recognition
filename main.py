@@ -21,6 +21,11 @@ enc2 = fr.face_encodings(img2)[0]
 rst = fr.compare_faces([enc1],enc2)[0]
 print(rst)
 
+if(rst):
+    print("they are same...")
+else:
+    print("They are not same...")
+
 loc = fr.face_locations(img2)[0]
 print(loc)
 
