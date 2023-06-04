@@ -2,4 +2,4 @@ install dlib file based on your architecture and your current version of python
 check version of python in terminal
 "python --version" 
 this command will show your the current version of python
-if your python version is 3.11 than you may use dlib.11.11 file or etc
+if your python version is 3.11 than you may use dlib-19.24.1-cp311-cp311-win_amd64.whl file or etc
